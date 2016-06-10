@@ -3,8 +3,8 @@
 $( document ).ready(function() {
   $('#enviar').click(function(){
    
-   var texto = $('#input').val();
-   console.log(texto);
+   var mensaje = $('#input').val();
+   console.log(mensaje);
    $('#input').val('');
 
 });
